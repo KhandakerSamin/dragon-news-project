@@ -1,4 +1,5 @@
-import { FaGoogle, FaGithub, FaFacebook, FaSquareXTwitter, FaInstagram } from "react-icons/fa6";
+import {  FaGithub, FaFacebook, FaSquareXTwitter, FaInstagram } from "react-icons/fa6";
+import { FcGoogle } from "react-icons/fc";
 import qZone1 from '../../../assets/qZone1.png'
 import qZone2 from '../../../assets/qZone2.png'
 import qZone3 from '../../../assets/qZone3.png'
@@ -10,7 +11,7 @@ const RightSideNav = () => {
             <div className="m-2">
                 <h2 className="font-semibold text-xl ml-2 ">Login With</h2>
                 <button className="btn btn-outline bg-transparent w-full mt-5 mb-2 text-blue-500">
-                    <FaGoogle className="text-xl"></FaGoogle>
+                    <FcGoogle className="text-xl"></FcGoogle>
                     Login with Google
                 </button>
                 <button className="btn btn-outline bg-transparent w-full mb-2 ">
