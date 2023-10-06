@@ -21,6 +21,7 @@ const Register = () => {
         createUser(email,password)
         .then(res => {
             console.log(res.user)
+            
         })
         .catch(err =>{ 
             console.log(err)
@@ -65,7 +66,7 @@ const Register = () => {
                     <Link to='/login'><button type="submit" className="btn bg-[#403F3F] w-full  text-white hover:text-black ">Register</button></Link>
                 </div>
                 <div>
-                    <h1 className="font-semibold text-base text-center mb-8 mt-2">Already Have An Account ? <Link to='/login' className="text-red-600">Login</Link></h1>
+                    <h1 className="font-semibold text-base text-center mb-8 mt-2">Already Have An Account ? <Link  className="text-red-600">Login</Link></h1>
                 </div>
             </form>
         </div>
